@@ -1,0 +1,594 @@
+*{
+
+    box-sizing: border-box;
+
+    margin: 0px;
+
+    padding:0px;
+
+    text-decoration: none;
+
+}
+
+
+
+#home {
+
+    background:url('myux.jpg');
+    
+    background-size:cover;
+    
+    background-repeat: no-repeat;
+    
+    width:100%;
+    
+    height: 100vh;
+    }
+    
+    html{
+
+        scroll-behavior: smooth;
+    
+    }
+    
+    .myprof{
+        background: linear-gradient(to bottom, #ffbd66 0%, #33ffcc 100%);
+        margin-bottom: 20px;
+        justify-content: space-between;
+        align-items: center;
+        padding:8px 0px;
+        width:100%;
+        
+        
+    }
+    
+    .header{
+
+        display: flex;
+    
+        justify-content: space-between;
+    
+        align-items: center;
+    
+        background-color: dodgerblue;
+    
+        padding:8px 0px;
+    
+        position: fixed;
+    
+        width:100%;
+        background: linear-gradient(to bottom, #702670 0%, #37424d 100%);
+        
+    
+    
+    } 
+
+    .header h1{
+
+        margin-left: 10px;
+    
+        color:gold;
+    
+    
+    
+    }
+    
+    .header h1:hover{
+    
+        color:red;
+    
+    }
+    
+    
+    
+    .menu {
+    
+        width:50%;
+        
+    
+    
+    
+    }
+    
+     .menu nav {
+    
+        display: flex;
+    
+        justify-content: space-between;
+    
+        align-items: center;
+        
+    
+    
+     }
+    
+     .menu nav a{
+    
+        text-transform: uppercase;
+    
+        text-decoration: none;
+    
+        color:white;
+    
+        transition:width 2s ;
+    
+     }
+    
+     input[type=search]  {
+    
+    
+    
+        padding: 5px 0px;
+    
+        font-weight: bold;
+    
+        font-size:16px;
+    
+        border-radius: 5px;
+    
+    
+    
+     }
+    
+     button{
+    
+        margin-right:10px;
+    
+        padding: 5px 5px;
+    
+        font-weight: bold;
+    
+        font-size:16px;
+    
+       border-radius: 5px;
+    
+       background: green;
+    
+       color: white;
+    
+     }
+    
+     
+    
+      button:hover{
+    
+            background-color:red;
+    
+        }
+    
+
+    .content{
+    
+        display: flex;
+    
+        justify-content: flex-start;
+    
+        align-items: center;
+        background-image: url("" );
+        background-repeat: no-repeat;
+        background-size:1500px,1500px;
+        background-position: center;
+    
+    }
+    
+     marquee {
+    
+        font-size:50px;
+    
+        text-align: center;
+    
+        margin-top: 300px;
+    
+        margin-bottom: 20px;
+    
+        color:mediumblue;
+    
+        text-shadow: 2px 2px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .para{
+    
+        display: flex;
+    
+        justify-content: center;
+    
+    }
+    
+    p{
+    
+    color:black;
+    
+        font-weight: bolder;
+    
+        font-size:20px;
+    
+        margin-left:100px;
+    
+        text-shadow: 1px 1px;
+    
+        ;
+    
+        
+    
+    }
+    
+    p:hover{
+    
+        color:blueviolet;
+    
+    }
+    
+    
+    
+    
+    
+    
+    
+    #ourservices {
+    
+        width:100%;
+    
+        height: 100%;
+    
+        background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.8)),url(image/bg1.png);
+    
+        background-repeat: no-repeat;
+    
+        background-size: cover;
+    
+        background-position: center;
+    
+    
+    
+    }
+    
+    #ourservices h1{
+    
+        color:red;
+    
+        text-align: center;
+    
+       left:0px;
+    
+        
+    
+        min-width:100%;
+    
+        padding: 10px;
+    
+        margin-bottom: 20px;
+    
+    }
+    
+    #ourservices h1::after{
+    
+        content: "";
+    
+        display: block;
+    
+        width:170px;
+    
+        height:3px;
+    
+        margin:20px auto;
+    
+        background: red;
+    
+    }
+    
+    #ourservices span {
+    
+        color:dodgerblue;
+    
+        padding:10px;
+    
+        font-weight: bold;
+    
+        font-size: 18px;
+    
+    
+    
+    }
+    
+    .container{
+    
+        margin-left: 50px;
+    
+        display: flex;
+    
+        margin-top: 30px;
+    
+        align-items: center;
+    
+    }
+    
+    .container1{
+    
+        margin-left: 50px;
+    
+        display: flex;
+    
+        
+    
+        align-items: center;
+    
+    }
+    
+    
+    
+        .Services{
+    
+            max-width:400px;
+    
+            height:360px;
+    
+            border: 1px solid dodgerblue;
+    
+            margin: 2px;
+    
+            border-radius: 2px;
+    
+        }
+    
+    
+    
+        .Services1{
+    
+            max-width:400px;
+    
+            height:360px;
+    
+            border: 3px solid gold;
+    
+            margin: 2px;
+    
+            border-radius: 2px;
+    
+    
+    
+        }
+    
+        .btn {
+    
+            margin-top: 40px;
+    
+            margin-left:130px;
+    
+            background: black;
+    
+            opacity: 0.7;
+    
+        }
+    
+        .btn a{
+    
+            color:white;
+    
+        }
+    
+        .btn:hover{
+    
+            background-color: gray;
+    
+        }
+    
+     
+    
+     #Aboutus {
+    
+      
+    
+        width:100%;
+    
+        height: 600px;
+    
+        background: linear-gradient(to bottom, #ff66ff 0%, #3399ff 100%);
+    
+    }
+    
+    
+    .butn{
+            margin-top: 40px;
+    
+            margin-left:500px;
+    
+            background:green;
+    
+            opacity: 0.9;
+    }
+    
+    
+    
+    
+    
+    #contactus{
+    
+        width:100%;
+    
+        height: 600px;
+    
+    
+    }
+    
+    #content-left{
+    float:left;
+    margin: 10px;
+    padding: 10px;
+    background-color:lightblue;
+    }
+    
+    
+    #content-right{
+    float:right;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightblue;
+    }
+    
+    
+    
+    .footer-container{
+    background-color: blue;
+    width: 100%;
+    height: 40vh;
+    
+    }
+    
+    .footer{
+    width: 100%;
+    height: 40vh;
+    background-color: cornflowerblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    }
+    
+    .footer-heading{
+    
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+    }
+    
+    .footer-heading h2{
+    margin-bottom: 2rem;
+    }
+    
+    .footer-heading a{
+    color: white;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    
+    }
+    .footer-heading a:hover{
+    color: red;
+    transition: 0.3s ease-out;
+    
+    }
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    }
+    .footer-email-form h2{
+    margin-bottom: 2rem;
+    }
+    
+    #footer-email{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+    
+    #footer-email::placeholder{
+    color:blue;
+    }
+    
+    #footer-emailbtn-btn{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    
+    
+    }
+    
+    
+    .container {  
+      padding: 50px;  
+      background-color:rgb(182, 230, 173);
+    
+     
+    }  
+    
+    input[type=text], input[type=password], textarea {  
+    width: 30%;  
+    padding: 15px;  
+    margin: 5px 0 22px 0;  
+    display: inline-block;  
+    border: none;  
+    background: #f1f1f1; 
+    
+    }  
+    input[type=text]:focus, input[type=password]:focus {  
+    background-color: red;  
+    outline: none;  
+    }  
+    div {  
+              padding: 50px 0;  
+           }  
+    hr {  
+    border: 1px solid #f1f1f1;  
+    margin-bottom: 25px;  
+    }  
+    
+    .registerbtn {  
+    
+    color: black;  
+    padding: 16px 20px;  
+    margin: 8px 0;  
+    border: none;  
+    cursor: pointer;  
+    width: 20%;  
+    opacity: 0.9;  
+    }  
+    .registerbtn:hover {  
+    opacity: 1;  
+    }  
+    
+    
+    * {
+      box-sizing: border-box;
+    }
+    
+    .columns {
+      float: left;
+      width: 33.3%;
+      padding: 8px;
+    }
+    
+    
+    .button {
+      background-color: #245a46;
+      border: none;
+      color: white;
+      padding: 10px 25px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    
+    @media only screen and (max-width: 600px) {
+      .columns {
+        width: 100%;
+      }
+    }
+    
+    .avatar {
+      vertical-align: middle;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      
+    }
+    
